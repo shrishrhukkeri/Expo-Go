@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Spatial AR Studio",
+    "slug": "spatial-ar-studio",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spatialar.studio",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Spatial AR Studio to access your camera for holographic AR spatial object placement."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#05070E"
+      },
+      "package": "com.spatialar.studio",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Spatial AR Studio to access your camera for holographic AR spatial object placement."
+        }
+      ]
+    ]
+  }
+}
