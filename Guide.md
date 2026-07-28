@@ -11,7 +11,7 @@ Welcome to **Spatial AR Studio**, an interactive React Native AR/VR spatial obje
 Open your terminal and clone the repository to your local machine:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/shrishrhukkeri/Expo-Go
 cd "Expo Go"
 ```
 
